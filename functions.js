@@ -1,4 +1,4 @@
-export class Player {
+ class Player {
     userName;
     properties;
 
@@ -43,7 +43,7 @@ class GameBoard {
     }
 }
 
-export const Game = new GameBoard();
+var Game = new GameBoard();
 
 window.onload = () => {
     Game.setupHooks();
