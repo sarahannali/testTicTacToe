@@ -1,5 +1,3 @@
-import { Game, Player } from './functions.js'
-
 const squares = ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"];
 
 Game.setupHooks = () => {
