@@ -1,17 +1,30 @@
-<!DOCTYPE html>
 <html>
-  <head>
-  <script>
-    window.top.postMessage(
-      JSON.stringify({
-        error: false,
-        message: "Hello World"
-      }),
-      '*'
-    );
-    </script>
-  </head>
-  <body>
-    <h1>Content inside an iframe, who knew...</h1>
-  </body>
+
+<head>
+    <link rel="stylesheet" href="./mockFrontEnd.css" type="text/css">
+</head>
+
+<body>
+    <h1>TIC TAC TOE</h1>
+    <h3 id="subtitle"></h3>
+    <div class="board">
+        <div class="row">
+            <div id="squareOne" class="square"></div>
+            <div id="squareTwo" class="square"></div>
+            <div id="squareThree" class="square"></div>
+        </div>
+        <div class="row">
+            <div id="squareFour" class="square"></div>
+            <div id="squareFive" class="square"></div>
+            <div id="squareSix" class="square"></div>
+        </div>
+        <div class="row lastRow">
+            <div id="squareSeven" class="square"></div>
+            <div id="squareEight" class="square"></div>
+            <div id="squareNine" class="square"></div>
+        </div>
+    </div>
+    <script type="module" src="./mockFrontEnd.js"></script>
+</body>
+
 </html>
