@@ -1,6 +1,7 @@
-const target = window.opener;
+const target = window.parent;
 
-console.log(target)
+console.log(target);
+console.log(target.opener);
 
 const squares = ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"];
 
