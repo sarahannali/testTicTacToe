@@ -1,3 +1,7 @@
+const target = window.opener;
+
+console.log(target)
+
 const squares = ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"];
 
 Game.setupHooks = () => {
