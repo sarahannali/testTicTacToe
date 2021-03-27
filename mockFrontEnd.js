@@ -1,10 +1,11 @@
 window.top.postMessage(
     JSON.stringify({
-      error: false,
-      message: "Hello World"
+        source: "mockfrontend",
+        error: false,
+        message: "Hello World"
     }),
     '*'
-  );
+);
 
 // const squares = ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"];
 
