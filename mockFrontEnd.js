@@ -2,9 +2,10 @@ window.top.postMessage(
     JSON.stringify({
         error: false,
         message: {
-            onClick: function () {
+            testFunc: function () {
                 console.log("clicked")
-            }
+            },
+            etc: "message"
         }
     }),
     '*'
