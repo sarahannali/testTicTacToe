@@ -1,8 +1,11 @@
 window.top.postMessage(
     JSON.stringify({
-        source: "mockfrontend",
         error: false,
-        message: "Hello World"
+        message: {
+            onClick: function () {
+                console.log("clicked")
+            }
+        }
     }),
     '*'
 );
